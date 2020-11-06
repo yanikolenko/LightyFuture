@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, right top, from(#B22222), to(#87CEFA));
+  background: -o-linear-gradient(left, #B22222, #87CEFA);
+  background: linear-gradient(to right, #B22222, #87CEFA);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.wrapper {
+  margin: 5% 0 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f8f8ff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.backRegLog {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.titles {
+  font-size: 15px;
+}
+
+.allFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 10px 20px 10px;
+  font-weight: bold;
+}
+
+input {
+  background: #E6E6FA;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 0 0 0 10px;
+}
+
+.paddin {
+  padding: 0 10px;
+}
+
+.registerbtn {
+  max-width: 100%;
+  width: 400px;
+  background: #a4c9ff;
+  padding: 10px 0;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.signin {
+  padding: 10px 0 20px 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.agree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.register {
+  width: 100%;
+  text-align: center;
+}
